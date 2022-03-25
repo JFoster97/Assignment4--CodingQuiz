@@ -18,8 +18,19 @@
         </p>
       </div>
     </header>
-    <container class="center questionsBox"></container>
-    <container class="text-center timer"><p>Remaining Time = 150</p></container>
+    <container class="text-center questionsBox">
+      <h2 class="question text-center"></h2>
+      <ul>
+        <li><p id ='a1'></p><button type='button' class = 'btn btn-primary btn-sm answerBtn'>Select</button></li>
+        <br>
+        <li><p id="a2"></p><button type='button' class = 'btn btn-primary btn-sm answerBtn'>Select</button></li>
+        <br>
+        <li><p id="a3"></p><button type='button' class = 'btn btn-primary btn-sm answerBtn'>Select</button></li>
+        <br>
+        <li><p id="a4"></p><button type='button' class = 'btn btn-primary btn-sm answerBtn'>Select</button></li>
+      </ul>
+    </container>
+    <container class="text-center timer"><p id="timer"></p></container>
 
   <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
